@@ -1,5 +1,4 @@
 public abstract class Personaje {
-    
     private String nombre;
     private int vidaHp;
     private int magiaMp;
@@ -7,13 +6,13 @@ public abstract class Personaje {
     private int defensa;
     private int velocidad;
     private boolean vive;
-    
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     public void setVidaHp(int vidaHp) {
-        this.vidaHp = Math.max(0, vidaHp);
+        this.vidaHp = vidaHp;
     }
 
     public void setMagiaMp(int magiaMp) {
@@ -95,11 +94,6 @@ public abstract class Personaje {
         return this.vive;
     }
 
-    public void curar(int cantidad) {
-    this.vidaHp += cantidad;
-    System.out.println(nombre + " recupera " + cantidad + " puntos de vida. HP actual: " + vidaHp);
-    }
-
     public void mostrarEstado() {
         System.out.println("Nombre: " + this.nombre);
         System.out.println("Vida (HP): " + this.vidaHp);
@@ -109,6 +103,7 @@ public abstract class Personaje {
         System.out.println("Velocidad: " + this.velocidad);
         System.out.println("Estado: " + (this.vive ? "Vivo" : "Derrotado"));
     }
+}
 
 
 
@@ -119,4 +114,4 @@ public abstract class Personaje {
 
 
 
-}
+
