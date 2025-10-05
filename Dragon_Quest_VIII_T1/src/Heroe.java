@@ -1,5 +1,7 @@
 public class Heroe extends Personaje {
 
+    // Constructor
+
     public Heroe(String nombre, int vidaHp, int magiaMp, int ataque, int defensa, int velocidad) {
         super(nombre, vidaHp, magiaMp, ataque, defensa, velocidad);
     }

@@ -7,6 +7,8 @@ public abstract class Personaje {
     private int velocidad;
     private boolean vive;
 
+    //setters y getters
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -62,6 +64,8 @@ public abstract class Personaje {
     public boolean isVive() {
         return vive;
     }
+
+    // Constructor
 
     public Personaje(String nombre, int vidaHp, int magiaMp, int ataque, int defensa, int velocidad) {
         this.nombre = nombre;
