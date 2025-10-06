@@ -16,6 +16,7 @@ Este mini proyecto es un simulador de combates por turnos inspirado en Dragon Qu
 - Visual Studio -> Java 
 - GitHub 
 - Git 
+afdfaf
 
 # 🕹 Integrantes
 
