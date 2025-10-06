@@ -8,8 +8,11 @@ Este mini proyecto es un simulador de combates por turnos inspirado en Dragon Qu
 # 🎮 Caracteristicas
 
 ✔ Creacion de Heroes y Personajes
+
 ✔ Batalla con combate por turnos
+
 ✔ Diferentes tipos de defensas y ataques
+
 ✔ Simulacion por consola 
 
 # 🔮 Programas Utilizados
