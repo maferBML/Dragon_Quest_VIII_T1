@@ -1,5 +1,7 @@
 public class Heroe extends Personaje {
 
+    // Constructor
+
     public Heroe(String nombre, int vidaHp, int magiaMp, int ataque, int defensa, int velocidad) {
         super(nombre, vidaHp, magiaMp, ataque, defensa, velocidad);
     }
@@ -17,7 +19,7 @@ public class Heroe extends Personaje {
             enemigo.setVidaHp(0);
             System.out.println(enemigo.getNombre() + " ha sido derrotado.");
         } else {
-            System.out.println(this.getNombre() + " ataca a " + enemigo.getNombre() + " causando " + danio + " puntos de daño.");
+            System.out.println(this.getNombre() + " ataca a " + enemigo.getNombre() + " causando " + danio + " puntos de dolor.");
         }
     }
 

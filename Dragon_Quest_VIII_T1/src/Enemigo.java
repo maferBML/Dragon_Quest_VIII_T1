@@ -22,7 +22,7 @@ public class Enemigo extends Personaje {
             enemigo.setVidaHp(0);
             System.out.println(enemigo.getNombre() + " ha sido derrotado.");
         } else {
-            System.out.println(this.getNombre() + " ataca a " + enemigo.getNombre() + " causando " + danio + " puntos de daño.");
+            System.out.println(this.getNombre() + " ataca a " + enemigo.getNombre() + " causando " + danio + " puntos de dolor.");
         }
     }
 
@@ -39,7 +39,7 @@ public class Enemigo extends Personaje {
     }
 
     public void defender() {
-        System.out.println(this.getNombre() + " se prepara para defenderse del próximo ataque.");
+        System.out.println(this.getNombre() + " se prepara para defenderse del proximo ataque.");
         setDefensa(getDefensa() + 10);
     }
 

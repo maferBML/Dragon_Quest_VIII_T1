@@ -51,7 +51,7 @@ public class Combate {
         }
 
         if (hayVivos(heroes))
-                System.out.println("¡Los héroes han ganado!");
+                System.out.println("¡Los heroes han ganado!");
         else 
             System.out.println("¡Los enemigos han ganado!");
         
@@ -63,7 +63,7 @@ public class Combate {
     }
 
     private void mostrarEstado() {
-        System.out.println("Héroes:");
+        System.out.println("Heroes:");
         for (Heroe h : heroes) {
             System.out.println("  " + h.getNombre() + " - HP: " + h.getVidaHp() + " MP: " + h.getMagiaMp());
         }

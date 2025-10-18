@@ -7,6 +7,8 @@ public abstract class Personaje {
     private int velocidad;
     private boolean vive;
 
+    //setters y getters
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -63,6 +65,8 @@ public abstract class Personaje {
         return vive;
     }
 
+    // Constructor
+
     public Personaje(String nombre, int vidaHp, int magiaMp, int ataque, int defensa, int velocidad) {
         this.nombre = nombre;
         this.vidaHp = vidaHp;
@@ -86,7 +90,7 @@ public abstract class Personaje {
             this.vive = false;
             System.out.println(this.nombre + " ha sido derrotado.");
         } else {
-            System.out.println(this.nombre + " ha recibido " + danioRecibido + " puntos de daño. Vida restante: " + this.vidaHp);
+            System.out.println(this.nombre + " ha recibido " + danioRecibido + " puntos de dolor. Vida restante: " + this.vidaHp);
         }
     }
 
