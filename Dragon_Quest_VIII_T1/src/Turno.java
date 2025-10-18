@@ -10,7 +10,7 @@ public class Turno {
         if (personajeA.estaVivo()){
             personajeA.atacar(personajeB);
         } else {
-            System.out.println(personajeA.getNombre() + " está incapacitado y no puede actuar.");
+            System.out.println(personajeA.getNombre() + " esta incapacitado y no puede actuar.");
         }
     
     }

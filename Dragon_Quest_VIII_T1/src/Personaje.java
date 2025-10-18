@@ -90,7 +90,7 @@ public abstract class Personaje {
             this.vive = false;
             System.out.println(this.nombre + " ha sido derrotado.");
         } else {
-            System.out.println(this.nombre + " ha recibido " + danioRecibido + " puntos de daño. Vida restante: " + this.vidaHp);
+            System.out.println(this.nombre + " ha recibido " + danioRecibido + " puntos de dolor. Vida restante: " + this.vidaHp);
         }
     }
 
